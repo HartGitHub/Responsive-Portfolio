@@ -1,47 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-  <link rel="stylesheet" href="style.css" />
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <title>Hart Portfolio</title>
   </head>
   <body>
     <div class="container">
-      <h1 id="home">Chris Hart</h1>
-      <nav>
-        <ul>
-          <li><a href="#about"></a>About Me</li>
-          <li><a href="#res"></a>Resume</li>
-          <li><a href="#contact"></a>Contact Me</li>
-          <li><a href="#home"></a>Home</li>
-        </ul>
-      </nav>
+      <h1 class="col s12 z-depth-5 text-center card-panel black white-text">
+        Chris Hart
+      </h1>
+      <ul class="collapsible">
+        <li>
+          <div class="collapsible-header">
+            <i class="material-icons">local_phone</i>Contact Me
+          </div>
+          <div class="collapsible-body">
+            <span>PH: 602-620-4312</span>
+            <p><a href="mailto:cehart90@gmail.com">Email Me</a></p>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header">
+            <i class="material-icons">work</i>Resume
+          </div>
+          <div class="collapsible-body">
+            <span
+              ><a href="https://www.linkedin.com/in/christopher-hart-linkedin/"
+                >LinkedIn</a
+              ></span
+            >
+            <p><a href="https://github.com/HartGitHub">Github</a></p>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header">
+            <i class="material-icons">person</i>About Me
+          </div>
+          <div class="collapsible-body">
+            <span
+              >After spending roughly five years in healthcare and social work
+              settings, I was ready to make the leap into the tech industry! To
+              get both of my feet in the water, I signed up for the University
+              of Arizona's web developer bootcamp. The course is fast paced,
+              which has leap frogged my HTML, CSS, and Javascript understanding
+              from 0 to novice. The course emphasizes the understanding of
+              logic, so that we can take our skills and quickly learn other
+              programming languages.Further, it equips us with the knowledge
+              that things can be done, and instill the confidence that we will
+              be capable of findig solutions to any problems that may present
+              themselves.</span
+            >
+          </div>
+        </li>
+      </ul>
     </div>
-    <img id="profileimg" src="./TokyoCharlie.JPG" alt="Pic of me in Japan" />
-
-    <main>
-      <section>
-        <h2 id="about">About Me</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla eius
-          illum dignissimos reiciendis, animi voluptates, iusto rerum tempore
-          amet soluta qui veniam! Animi voluptatum quas nulla itaque. Alias,
-          architecto sit!
-        </p>
-      </section>
-      <section>
-        <h2 id="res">Resume</h2>
-        <p>
-          My portfolio is still growing. Click <span> <a href="https://github.com/HartGitHub">My Github</a></span>  to see all my projects.
-        </p>
-      </section>
-      <section>
-        <h2 id="contact">Contact Me</h2>
-       <a href="mailto:cehart90@gmail.com">Email Me!</a>
-        <address>Cell: 602.620.4312</address>
-      </section>
-    </main>
+    <img class="materialboxed" width="650" src="./20200517_161959.jpg" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>
