@@ -1,0 +1,4 @@
+.imgContainer {
+    display: grid;
+    grid-template-areas: "materialboxed carousel";
+}
